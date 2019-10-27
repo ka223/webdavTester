@@ -11,7 +11,7 @@ It tests webdav connections with gio in linux and help to keep them alive. This 
 ## installation
 Place the script call at /etc/crontab, for example:
 
-1 1 * * * user bash /pathToScript/webdav_test.bash >>/tmp/webdav_test.log
+1 1 * * * user bash /pathToScript/webdav_test.bash
 
 ## accounts
 All the webdav account files should be at $HOME/webdav, all accounts with a .webdav file will be processed.
